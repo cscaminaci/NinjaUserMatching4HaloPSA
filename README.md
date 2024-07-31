@@ -6,15 +6,15 @@ This repository contains two versions of a PowerShell script designed to detect 
 
 ### 1. Without Graph API Integration
 
-- [README for Without Graph Version](Without_Graph\README_WithoutGraph.md)
-- [Script: Set-NinjaUserFromOST.ps1](Without_Graph\Set-NinjaUserFromOST.ps1)
+- [README for Without Graph Version](https://github.com/cscaminaci/NinjaUserMatching4HaloPSA/blob/main/Without_Graph/README_WithoutGraph.md)
+- [Script: Set-NinjaUserFromOST.ps1](https://github.com/cscaminaci/NinjaUserMatching4HaloPSA/blob/main/Without_Graph/Set-NinjaUserFromOST.ps1)
 
 This version of the script operates locally on the Windows machine without requiring any Azure AD or Microsoft Graph API integration. It's simpler to set up and use but may not provide the same level of verification of validity for user accounts.
 
 ### 2. With Graph API Integration
 
-- [README for Graph-Enabled Version](With_Graph\README_GraphEnabled.md)
-- [Script: Set-NinjaUserFromOST_GraphEnabled.ps1](With_Graph\Set-NinjaUserFromOST_GraphEnabled.ps1)
+- [README for Graph-Enabled Version](https://github.com/cscaminaci/NinjaUserMatching4HaloPSA/blob/main/With_Graph/README_GraphEnabled.md)
+- [Script: Set-NinjaUserFromOST_GraphEnabled.ps1](https://github.com/cscaminaci/NinjaUserMatching4HaloPSA/blob/main/With_Graph/Set-NinjaUserFromOST_GraphEnabled.ps1)
 
 This version integrates with Microsoft Graph API to verify user accounts against Azure AD. It provides an additional layer of accuracy but requires more setup, including an Azure AD app registration and appropriate permissions.
 
